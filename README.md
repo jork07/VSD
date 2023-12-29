@@ -10,16 +10,43 @@ It mainly includes the following functions:
 4. HongKong1997(https://www.youtube.com/watch?v=d2_Hl1DGnks)
 
 We obtained other formats of videos in the paper from the sample website(https://filesamples.com/)
-## Video Segmentation
+# Installation
+Step-by-step installation is as follows:
+## Tools and environment
+
+> Install Python IDE, PyCharm from here https://www.jetbrains.com/pycharm/download/?section=windows,
+
+> Install following Python packages
+
+- codecs
+- binascii
+- galois
+- numpy
+- blast
+- struct
+## Experimental steps
+### Video Segmentation
 Step 1: Open segmentation.py script(Confirm that you have installed ffmpeg);
 
 Step 2: Choose a mp4 file, and set the output path & srgment duration;
 
 Step 3: Run the script, it will will quickly complete video segmentation, and each video can be played separately.
 
-## DNA transcoding
+### DNA Encode
 Step 1: Open VSD_codec.py script, drop down to line 250;
 
 Step 2: Choose a mp4 segmentation file, and set the DNA file output path;
 
 Step 3: Run the script,It will automatically perform a quaternary conversion and output a DNA sequence file in fasta format.
+### DNA Decode
+Step 1: Open VSD_codec.py script, drop down to line 250;
+
+Step 2: Choose a mp4 segmentation file, and set the DNA file output path;
+
+Step 3: Run the script,It will automatically perform a quaternary conversion and output a DNA sequence file in fasta format.
+# License
+VSD is licensed under the GNU General Public License; for more information, read the LICENSE file or refer to:
+
+http://www.gnu.org/licenses/
+# Citation
+A related paper is submitted to the SCI journal.
