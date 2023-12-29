@@ -11,5 +11,7 @@ It mainly includes the following functions:
 
 We obtained other formats of videos in the paper from the sample website(https://filesamples.com/)
 ## Video Segmentation
-
+Step 1: Open segmentation.py script(Confirm that you have installed ffmpeg);
+Step 2: Choose a mp4 file, and set the output path & srgment duration;
+Step 3: Run the script, it will will quickly complete video segmentation, and each video can be played separately.
 ## DNA transcoding
